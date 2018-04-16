@@ -7,7 +7,10 @@ simples: simples.c
 structs: structs.c
 	gcc -o structs.out structs.c $(CFLAGS)
 
-all: simples structs
+retorno: retorno.c
+	gcc -o retorno.out retorno.c $(CFLAGS)
+
+all: simples structs retorno
 
 clean: 
 	rm *.out
