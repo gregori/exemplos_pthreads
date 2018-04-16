@@ -17,30 +17,30 @@ $ git clone https://github.com/gregori/exemplos\_threads
 Certifique-se de que você tem o compilador instalado em seu linux:
 
 ```
-   $ su -
-   # apt-get update
-   # apt-get install build-essential
-   # gcc -v
-   Using built-in specs.
-   COLLECT\_GCC=gcc
-   COLLECT\_LTO\_WRAPPER=/usr/lib/gcc/x86\_64-linux-gnu/5/lto-wrapper
-   Target: x86\_64-linux-gnu
-   ...
-   Thread model: posix
-   gcc version ....
+$ su -
+# apt-get update
+# apt-get install build-essential
+# gcc -v
+Using built-in specs.
+COLLECT\_GCC=gcc
+COLLECT\_LTO\_WRAPPER=/usr/lib/gcc/x86\_64-linux-gnu/5/lto-wrapper
+Target: x86\_64-linux-gnu
+...
+Thread model: posix
+gcc version ....
 
 ```
 
 Compile todos os programas usando make:
 
 ```
-   $ make all
+$ make all
 ```
 
 Os executáveis terão a extensão '.out':
 
 ```
-   $ ls *.out
-   simples.out  structs.out  retorno.out
+$ ls *.out
+simples.out  structs.out  retorno.out
 ```
 
