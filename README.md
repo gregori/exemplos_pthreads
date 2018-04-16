@@ -10,10 +10,13 @@ Este repositório contém alguns exemplos de programas escritos em C, utilizando
 
 Baixe o repositório, através do git
 
-   $ git clone https://github.com/gregori/exemplos\_threads
+```
+$ git clone https://github.com/gregori/exemplos\_threads
+```
 
 Certifique-se de que você tem o compilador instalado em seu linux:
 
+```
    $ su -
    # apt-get update
    # apt-get install build-essential
@@ -26,12 +29,18 @@ Certifique-se de que você tem o compilador instalado em seu linux:
    Thread model: posix
    gcc version ....
 
+```
+
 Compile todos os programas usando make:
 
+```
    $ make all
+```
 
 Os executáveis terão a extensão '.out':
 
+```
    $ ls *.out
    simples.out  structs.out  retorno.out
+```
 
