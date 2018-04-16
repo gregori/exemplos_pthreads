@@ -1,5 +1,5 @@
 CC=gcc
-CFLAGS=lpthread
+CFLAGS=-lpthread
 
 simples: simples.c
 	gcc -o simples.out simples.c $(CFLAGS)
