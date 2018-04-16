@@ -11,7 +11,8 @@ Este repositório contém alguns exemplos de programas escritos em C, utilizando
 Baixe o repositório, através do git
 
 ```
-$ git clone https://github.com/gregori/exemplos\_threads
+$ git clone https://github.com/gregori/exemplos_threads
+$ cd exemplos_threads
 ```
 
 Certifique-se de que você tem o compilador instalado em seu linux:
@@ -28,6 +29,7 @@ Target: x86\_64-linux-gnu
 ...
 Thread model: posix
 gcc version ....
+# exit
 
 ```
 
