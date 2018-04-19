@@ -8,6 +8,13 @@ Este repositório contém alguns exemplos de programas escritos em C, utilizando
 
 ## Como usar este repositório?
 
+Instale o git, caso ainda não o tenha
+
+```
+# apt-get update
+# apt-get install git
+```
+
 Baixe o repositório, através do git
 
 ```
